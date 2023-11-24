@@ -1,7 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4;
 }
 
 header {
@@ -20,6 +21,8 @@ header {
   border-radius: 50%;
   max-width: 200px;
   height: auto;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #skills,
@@ -35,6 +38,10 @@ ul {
 ul li {
   display: inline-block;
   margin-right: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
 }
 
 section h2 {
@@ -43,14 +50,31 @@ section h2 {
 
 /* Style untuk tombol sapa */
 #btn-greet {
-  background-color: #4caf50;
+  background-color: #3498db;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #btn-greet:hover {
-  background-color: #45a049;
+  background-color: #2980b9;
+}
+
+/* Style untuk kontak */
+#contact p {
+  font-size: 1.2em;
+}
+
+/* Animasi hover untuk link kontak */
+#contact a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#contact a:hover {
+  color: #2980b9;
 }
