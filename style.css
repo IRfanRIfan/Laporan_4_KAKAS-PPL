@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+#profile-info {
+  text-align: center;
+  margin: 2em;
+}
+
+#profile-info img {
+  border-radius: 50%;
+  max-width: 200px;
+  height: auto;
+}
+
+#skills,
+#contact {
+  margin: 2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+section h2 {
+  color: #333;
+}
+
+/* Style untuk tombol sapa */
+#btn-greet {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-greet:hover {
+  background-color: #45a049;
+}
